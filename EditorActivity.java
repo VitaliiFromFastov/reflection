@@ -13,7 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.pets;
 
 import android.content.ContentValues;
 import android.content.Intent;
@@ -106,7 +105,7 @@ public class EditorActivity extends AppCompatActivity {
                     } else if (selection.equals(getString(R.string.gender_female))) {
                         mGender = GENDER_FEMALE; // Female
                     } else {
-                        mGender = GENDER_UNKNOWN; // Unknown
+                        mGender = GENDER_FEMALE; // Unknown
                     }
                 }
             }
